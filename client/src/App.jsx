@@ -1,8 +1,11 @@
 import React from 'react'
+import Menu from './components/Sections/Menu'
 
 function App() {
   return (
-    <div>App</div>
+    <>
+    <Menu/>
+    </>
   )
 }
 

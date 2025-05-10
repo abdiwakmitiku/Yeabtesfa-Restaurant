@@ -1,3 +1,5 @@
+// import {logo} from "../assets/restLogo.png";
+
 export const FoodInfos = [
   {
     logo: "../assets/restLogo.png",
