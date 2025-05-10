@@ -1,12 +1,13 @@
-import React from 'react'
-import Menu from './components/Sections/Menu'
+import React from "react";
+import Menu from "./components/Sections/Menu";
+// import "./App.css";
 
 function App() {
   return (
     <>
-    <Menu/>
+      <Menu />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,16 +1,15 @@
 import React from "react";
 import MenuCard from "./MenuCard";
 import { FoodInfos } from "../Data";
+// import  "./Menu.module.css";
 
 function Menu() {
   return (
-    <>
-      <section>
-        {FoodInfos.map((infos) => (
-          <MenuCard data={infos} />
-        ))}
-      </section>
-    </>
+    <section className="menu-section">
+      {FoodInfos.map((infos, index) => (
+        <MenuCard key={index} data={infos} />
+      ))}
+    </section>
   );
 }
 

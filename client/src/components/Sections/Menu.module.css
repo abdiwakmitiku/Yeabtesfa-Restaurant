@@ -1,0 +1,150 @@
+.title {
+  height: 4px;
+  width: 50px;
+  margin: 1px auto 0;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-m);
+}
+
+h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: Yeshuah;
+  src: url(../Font/Yeshuahየሹዋ.ttf);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-n);
+}
+
+.food {
+  height: 15px;
+  width: 130px;
+  margin: 30px 15px 0;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius-m);
+}
+
+.food h3 {
+  padding-top: 2px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Ethiopic Hiwua;
+  src: url(../Font/Hiwuaslህዋ.ttf);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-m);
+}
+
+.price h4 {
+  padding-top: 6px;
+  width: 100%;
+  color: var(--white-color);
+  font-family: Nokia Pure Headline;
+  src: url(../Font/NokiaPureHeadlineኖኪያ.ttf);
+  font-weight: var(--font-weight-bold);
+  font-size: 0.57rem;
+  line-height: 1;
+}
+
+.price {
+  margin: 0 15px 15px;
+}
+
+.pic {
+  width: 100%;
+}
+
+.pic img {
+  width: 100%;
+  margin-top: 18px;
+}
+
+@media (min-width: 370px) {
+  .title {
+    height: 4px;
+    width: 60px;
+  }
+  h1 {
+    font-size: var(--font-size-ml);
+  }
+  .food {
+    height: 20px;
+    width: 150px;
+  }
+  .food h3 {
+    padding-top: 3px;
+    font-size: var(--font-size-n);
+  }
+  .price h4 {
+    padding-top: 8px;
+    width: 100%;
+    font-size: 0.67rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 410px) {
+  .title {
+    height: 4px;
+    width: 75px;
+  }
+  h1 {
+    font-size: var(--font-size-l);
+  }
+  .food {
+    height: 23px;
+    width: 170px;
+    margin: 30px 25px 0;
+  }
+  .food h3 {
+    padding-top: 3px;
+    font-size: 1.1rem;
+  }
+  .price h4 {
+    padding: 10px 0 0 8px;
+    width: 100%;
+    font-size: 0.77rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 510px) {
+  .title {
+    height: 5px;
+    width: 85px;
+  }
+  h1 {
+    font-size: var(--font-size-xl);
+  }
+  .food {
+    height: 26px;
+    width: 200px;
+  }
+  .food h3 {
+    padding-top: 3px;
+    font-size: var(--font-size-ml);
+  }
+  .price h4 {
+    padding-top: 12px;
+    font-size: var(--font-size-n);
+    line-height: 1;
+  }
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+  .food {
+    height: 30px;
+    width: 250px;
+    margin: 55px 40px 0;
+  }
+  .food h3 {
+    padding-top: 3px;
+    font-size: var(--font-size-xl);
+  }
+  .price h4 {
+    padding: 20px 0 0 20px;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+}
