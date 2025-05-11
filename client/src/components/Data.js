@@ -1,9 +1,23 @@
+import Logo from "../../assets/restLogo.png";
+import foodP1 from "../../assets/Images/food1.png";
+import foodP2 from "../../assets/Images/food2.png";
+import foodP3 from "../../assets/Images/food3.png";
+import foodP4 from "../../assets/Images/food4.png";
+import foodP6 from "../../assets/Images/food6.png";
+import Burger from "../../assets/Images/Burger.png";
+import Tacos from "../../assets/Images/Tacos.png";
+import Pizza from "../../assets/Images/Pizza.png";
+import Chips from "../../assets/Images/Chips.png";
+import Coffee from "../../assets/Images/Coffee.png";
+import Tea from "../../assets/Images/Tea.png";
+import SoftDrinks from "../../assets/Images/SoftDrinks.png";
+
 export const FoodInfos = [
   {
     logo: "../assets/restLogo.png",
     title: "Food-Menu",
     Property1: {
-      image: "../assets/Images/food1.png",
+      image: foodP1,
       type: "ጥብስ/Tibs",
       food1: {
         name: "ዱለት ጥብስ 1 k.g",
@@ -22,7 +36,7 @@ export const FoodInfos = [
       },
     },
     Property2: {
-      image: "../assets/Images/food2.png",
+      image: foodP2,
       type: "በያይነት/Beyaynet",
       food1: {
         name: "የፆም በያይነት",
@@ -41,7 +55,7 @@ export const FoodInfos = [
       },
     },
     Property3: {
-      image: "../assets/Images/food3.png",
+      image: foodP3,
       type: "ክትፎ/Kitfo",
       food1: {
         name: "ጥሬ ክትፎ 1 k.g",
@@ -60,7 +74,7 @@ export const FoodInfos = [
       },
     },
     Property4: {
-      image: "../assets/Images/food4.png",
+      image: foodP4,
       type: "ፍስክ ወጥ/Stew",
       food1: {
         name: "ዶሮ ውጥ",
@@ -79,7 +93,7 @@ export const FoodInfos = [
       },
     },
     Property5: {
-      image: "../assets/Images/food6.png",
+      image: foodP6,
       type: "Other Dishes",
       food1: {
         name: "ጎመን በስጋ",
@@ -102,7 +116,7 @@ export const FoodInfos = [
     logo: "../assets/restLogo.png",
     title: "Fast-Foods",
     Property1: {
-      image: "../assets/Images/Burger.png",
+      image: Burger,
       type: "በርገር/Burger",
       food1: {
         name: "እስፔሻል በርገር",
@@ -121,7 +135,7 @@ export const FoodInfos = [
       },
     },
     Property2: {
-      image: "../assets/Images/Tacos.png",
+      image: Tacos,
       type: "ታኮስ/Tacos",
       food1: {
         name: "ቢሪያ ታኮስ",
@@ -140,7 +154,7 @@ export const FoodInfos = [
       },
     },
     Property3: {
-      image: "../assets/Images/Pizza.png",
+      image: Pizza,
       type: "ፒዛ/Pizza",
       food1: {
         name: "እስፔሻል ፒዛ",
@@ -159,7 +173,7 @@ export const FoodInfos = [
       },
     },
     Property4: {
-      image: "../assets/Images/Chips.png",
+      image: Chips,
       type: "Other Fastfoods",
       food1: {
         name: "እስፔሻል ችብስ",
@@ -182,7 +196,7 @@ export const FoodInfos = [
     logo: "../assets/restLogo.png",
     title: "Hot-Drinks",
     Property1: {
-      image: "../assets/Images/Coffee.png",
+      image: Coffee,
       type: "ቡና/Coffee",
       food1: {
         name: "ጥቁር ቡና",
@@ -201,7 +215,7 @@ export const FoodInfos = [
       },
     },
     Property2: {
-      image: "../assets/Images/Tea.png",
+      image: Tea,
       type: "ሻይ/Tea",
       food1: {
         name: "ሻይ",
@@ -220,7 +234,7 @@ export const FoodInfos = [
       },
     },
     Property3: {
-      image: "../assets/Images/SoftDrinks.png",
+      image: SoftDrinks,
       type: "Others",
       food1: {
         name: "ወተት",
