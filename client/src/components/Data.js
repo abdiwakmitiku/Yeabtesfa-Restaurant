@@ -1,20 +1,20 @@
-import Logo from "../../assets/restLogo.png";
-import foodP1 from "../../assets/Images/food1.png";
-import foodP2 from "../../assets/Images/food2.png";
-import foodP3 from "../../assets/Images/food3.png";
-import foodP4 from "../../assets/Images/food4.png";
-import foodP6 from "../../assets/Images/food6.png";
-import Burger from "../../assets/Images/Burger.png";
-import Tacos from "../../assets/Images/Tacos.png";
-import Pizza from "../../assets/Images/Pizza.png";
-import Chips from "../../assets/Images/Chips.png";
-import Coffee from "../../assets/Images/Coffee.png";
-import Tea from "../../assets/Images/Tea.png";
-import SoftDrinks from "../../assets/Images/SoftDrinks.png";
+import Logo from "../assets/restLogo.png";
+import foodP1 from "../assets/Images/food1.png";
+import foodP2 from "../assets/Images/food2.png";
+import foodP3 from "../assets/Images/food3.png";
+import foodP4 from "../assets/Images/food4.png";
+import foodP6 from "../assets/Images/food6.png";
+import Burger from "../assets/Images/Burger.png";
+import Tacos from "../assets/Images/Tacos.png";
+import Pizza from "../assets/Images/Pizza.png";
+import Chips from "../assets/Images/Chips.png";
+import Coffee from "../assets/Images/Coffee.png";
+import Tea from "../assets/Images/Tea.png";
+import SoftDrinks from "../assets/Images/SoftDrinks.png";
 
 export const FoodInfos = [
   {
-    logo: "../assets/restLogo.png",
+    logo: Logo,
     title: "Food-Menu",
     Property1: {
       image: foodP1,
@@ -113,7 +113,7 @@ export const FoodInfos = [
     },
   },
   {
-    logo: "../assets/restLogo.png",
+    logo: Logo,
     title: "Fast-Foods",
     Property1: {
       image: Burger,
@@ -193,7 +193,7 @@ export const FoodInfos = [
     },
   },
   {
-    logo: "../assets/restLogo.png",
+    logo: Logo,
     title: "Hot-Drinks",
     Property1: {
       image: Coffee,

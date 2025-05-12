@@ -1,7 +1,7 @@
 import React from "react";
 import MenuCard from "./MenuCard";
 import { FoodInfos } from "../Data";
-// import  "./Menu.module.css";
+
 
 function Menu() {
   return (

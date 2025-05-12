@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./components/Sections/Menu";
-// import "./App.css";
+import "./App.css";
 
 function App() {
   return (
