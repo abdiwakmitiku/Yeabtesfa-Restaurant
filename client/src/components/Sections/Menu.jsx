@@ -1,7 +1,6 @@
 import React from "react";
 import MenuCard from "./MenuCard";
-import { FoodInfos } from "../Data";
-
+import { FoodInfos } from "../../../public/Data";
 
 function Menu() {
   return (

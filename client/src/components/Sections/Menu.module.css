@@ -56,6 +56,20 @@
   flex-wrap: wrap;
 }
 
+.title {
+  height: 4px;
+  width: 50px;
+  margin: 1px auto 0;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-m);
+}
+
+.food-section {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px; /* optional spacing between sections */
+}
+
 .left {
   width: 50%;
 }
@@ -107,6 +121,10 @@ h1 {
   line-height: 1;
 }
 
+.nameEN {
+  color: #f0e67ac9;
+}
+
 .pic {
   width: 100%;
 }
@@ -117,6 +135,10 @@ h1 {
 }
 
 @media (min-width: 370px) {
+  .title {
+    height: 4px;
+    width: 65px;
+  }
   h1 {
     font-size: var(--font-size-ml);
   }
@@ -135,6 +157,10 @@ h1 {
 }
 
 @media (min-width: 410px) {
+  .title {
+    height: 5px;
+    width: 80px;
+  }
   h1 {
     font-size: var(--font-size-l);
   }
@@ -153,6 +179,10 @@ h1 {
 }
 
 @media (min-width: 510px) {
+  .title {
+    height: 7px;
+    width: 95px;
+  }
   h1 {
     font-size: var(--font-size-xl);
   }

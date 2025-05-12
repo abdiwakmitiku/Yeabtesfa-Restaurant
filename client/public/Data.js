@@ -1,16 +1,16 @@
-import Logo from "../assets/restLogo.png";
-import foodP1 from "../assets/Images/food1.png";
-import foodP2 from "../assets/Images/food2.png";
-import foodP3 from "../assets/Images/food3.png";
-import foodP4 from "../assets/Images/food4.png";
-import foodP6 from "../assets/Images/food6.png";
-import Burger from "../assets/Images/Burger.png";
-import Tacos from "../assets/Images/Tacos.png";
-import Pizza from "../assets/Images/Pizza.png";
-import Chips from "../assets/Images/Chips.png";
-import Coffee from "../assets/Images/Coffee.png";
-import Tea from "../assets/Images/Tea.png";
-import SoftDrinks from "../assets/Images/SoftDrinks.png";
+import Logo from "../src/assets/restLogo.png";
+import foodP1 from "../src/assets/Images/food1.png";
+import foodP2 from "../src/assets/Images/food2.png";
+import foodP3 from "../src/assets/Images/food3.png";
+import foodP4 from "../src/assets/Images/food4.png";
+import foodP6 from "../src/assets/Images/food6.png";
+import Burger from "../src/assets/Images/Burger.png";
+import Tacos from "../src/assets/Images/Tacos.png";
+import Pizza from "../src/assets/Images/Pizza.png";
+import Chips from "../src/assets/Images/Chips.png";
+import Coffee from "../src/assets/Images/Coffee.png";
+import Tea from "../src/assets/Images/Tea.png";
+import SoftDrinks from "../src/assets/Images/SoftDrinks.png";
 
 export const FoodInfos = [
   {
@@ -134,26 +134,8 @@ export const FoodInfos = [
         price: "700Birr",
       },
     },
+
     Property2: {
-      image: Tacos,
-      type: "ታኮስ/Tacos",
-      food1: {
-        name: "ቢሪያ ታኮስ",
-        nameEN: "Birria Tacos",
-        price: "650Birr",
-      },
-      food2: {
-        name: "የአትክልት ታኮስ",
-        nameEN: "Veggie Tacos",
-        price: "650Birr",
-      },
-      food3: {
-        name: "የስጋ ታኮስ",
-        nameEN: "Meat Tacos",
-        price: "700Birr",
-      },
-    },
-    Property3: {
       image: Pizza,
       type: "ፒዛ/Pizza",
       food1: {
@@ -170,6 +152,25 @@ export const FoodInfos = [
         name: "የፆም ቱና ፒዛ",
         nameEN: "Fasting Tuna Pizza",
         price: "600Birr",
+      },
+    },
+    Property3: {
+      image: Tacos,
+      type: "ታኮስ/Tacos",
+      food1: {
+        name: "ቢሪያ ታኮስ",
+        nameEN: "Birria Tacos",
+        price: "650Birr",
+      },
+      food2: {
+        name: "የአትክልት ታኮስ",
+        nameEN: "Veggie Tacos",
+        price: "650Birr",
+      },
+      food3: {
+        name: "የስጋ ታኮስ",
+        nameEN: "Meat Tacos",
+        price: "700Birr",
       },
     },
     Property4: {
